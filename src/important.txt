@@ -1,0 +1,15 @@
+React in process how to run the application && wWebsite
+
+1.package.json 
+2.main.jsx me app run hoga
+3.App.jsx me return ke under jo statement hoga vahi statement run honge
+
+Componenets:
+
+class based Componenets
+function based Componenets
+
+Componenets in the source file
+
+serach file ctrl+P
+
