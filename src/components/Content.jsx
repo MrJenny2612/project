@@ -12,7 +12,7 @@ export default function () {
     };
 
   return (
-    <div class="container" >
+    <div className="container" >
           {/* <h1> Name  {name}</h1>
           <h3> Age = {age}</h3>
           <h3> User Firstname = {user.firstname}</h3>

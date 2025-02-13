@@ -2,8 +2,8 @@ import React from 'react'
 import '../assets/header.css'
 export const Header = () => {
   return (
-    <div class="header" >
-      <nav class="navbar">
+    <div className="header" >
+      <nav className="navbar">
        <a href="#home">Home</a>
        <a href="#content">About Us</a>
        <a href="#contact">Contact us</a>

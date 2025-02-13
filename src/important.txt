@@ -13,3 +13,51 @@ Componenets in the source file
 
 serach file ctrl+P
 
+************************************************************
+
+Browser ma page refresh mate Navbar ma 
+
+<a href="/home"></a>
+
+Browser ma page Not refresh mate Navbar ma
+
+<Link to="/home"></Link>
+
+************************************************************
+
+
+-->        Routing
+
+1. Open in  Vs Terminal 
+
+npm install react-router-dom
+
+2. Main.jsx file 
+
+<BrowserRouter>
+
+</BrowserRouter>
+
+3. App.jsx file
+
+<Routes>
+    <Route></Route>
+</Routes>
+
+
+************************************************************
+
+
+-->        Id and Input form
+
+1. play.jsx file
+
+> useParams().id
+
+2. app.jsx
+
+> <Route path="/play/:id"></Route>
+
+-->  Input form 
+
+{...register} spread operator (it is use for the reopen )
