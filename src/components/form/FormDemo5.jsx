@@ -42,7 +42,7 @@ export const FormDemo5 = () => {
             </div>
             <div>
                 <label> Age :</label>
-                <input type="text" {...register("age ",validationSchema.ageValidator)} />
+                <input type="text" {...register("age",validationSchema.ageValidator)} />
                 <span style={{color:"red"}}>{errors.age?.message}</span>
             </div>
             <div>
