@@ -22,9 +22,12 @@ import { FormDemo2 } from './components/form/FormDemo2'
 import { FormDemo3 } from './components/form/FormDemo3'
 import { FormDemo4 } from './components/form/FormDemo4'
 import { FormDemo5 } from './components/form/FormDemo5'
+import { FormDemo6 } from './components/form/FormDemo6'
+import { FormDemo7 } from './components/form/FormDemo7'
 import { FormTask1 } from './components/form/FormTask1'
 import { FormTask2 } from './components/form/FormTask2'
 import { FormTask3 } from './components/form/FormTask3'
+import { Login } from './components/form/Login'
 // import ArrayDemo3 from './components/ArrayDemo3'
 // import ArrayDemo4 from './components/ArrayDemo4'
 // import ArrayDemoTask1 from './components/ArrayDemoTask1'
@@ -52,9 +55,12 @@ function App() {
           <Route path="/formdemo3" element={<FormDemo3></FormDemo3>}></Route>
           <Route path="/formdemo4" element={<FormDemo4></FormDemo4>}></Route>
           <Route path="/formdemo5" element={<FormDemo5></FormDemo5>}></Route>
+          <Route path="/formdemo6" element={<FormDemo6></FormDemo6>}></Route>
+          <Route path="/formdemo7" element={<FormDemo7></FormDemo7>}></Route>
           <Route path="/vehicleservice" element={<FormTask1></FormTask1>}></Route>
           <Route path='/bankkyc' element={<FormTask2></FormTask2>}></Route>
           <Route path = '/bugreport' element={<FormTask3></FormTask3>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
 
          </Routes>
           {/* <InputDemo1></InputDemo1> */}
